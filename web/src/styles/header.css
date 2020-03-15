@@ -1,0 +1,42 @@
+/* 
+    primary-color:63372C;
+    secondary-color:C97D60
+*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #63372C;
+    align-items: center;
+    height:40px;
+    padding:0 10px;
+}
+.header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+    font-size: 2em;
+}
+
+.header div input{
+    height:15px;
+    margin-left:10px;
+    border-radius: 5px;
+    border: 2px solid #aaa;
+    outline: none;
+    width:300px;
+}
+.header button{
+    border:none;
+    background-color: #C97D60;
+    border:1px solid #B77258;
+    outline: none;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+}
+.header button:active{
+    background-color: #80503E;
+    border:1px solid #6E4535;
+    box-shadow: none;
+}
+.none{
+    visibility: hidden;
+    display: none;
+}
